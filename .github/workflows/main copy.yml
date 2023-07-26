@@ -11,3 +11,5 @@ jobs:
         shell: bash
     steps:
     - run: echo 99999
+    - uses: actions/checkout@v3
+    - run: ls
